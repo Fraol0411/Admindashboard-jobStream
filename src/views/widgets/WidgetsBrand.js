@@ -105,7 +105,7 @@ const WidgetsBrand = (props) => {
         />
       </CCol>
       <CCol sm={6} xl={4} xxl={3}>
-        <CWidgetStatsD
+        {/* <CWidgetStatsD
           {...(props.withCharts && {
             chart: (
               <CChart
@@ -138,7 +138,7 @@ const WidgetsBrand = (props) => {
           }}
         />
       </CCol>
-      <CCol sm={6} xl={4} xxl={3}>
+      <CCol sm={6} xl={4} xxl={3}> */}
         <CWidgetStatsD
           color="warning"
           {...(props.withCharts && {
