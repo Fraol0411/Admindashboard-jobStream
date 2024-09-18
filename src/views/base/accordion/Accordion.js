@@ -17,8 +17,8 @@ const Accordion = () => {
     <CRow>
       <CCol xs={12}>
         <CCard className="mb-4">
-          <CCardHeader>
-            <strong>React Accordion</strong>
+          <CCardHeader style={{textAlign:'center'}}>
+            <strong> Create New Vacancy </strong>
           </CCardHeader>
           <CCardBody>
             <p className="text-body-secondary small">
